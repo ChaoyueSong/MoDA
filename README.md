@@ -38,3 +38,21 @@
 - [2023/03/05] Our paper is available on arXiv now, sorry for that the code will need months to be released.
 
 <br>
+
+## Citation
+
+```bibtex
+@inproceedings{xiu2023econ,
+  title     = {{ECON: Explicit Clothed humans Optimized via Normal integration}},
+  author    = {Xiu, Yuliang and Yang, Jinlong and Cao, Xu and Tzionas, Dimitrios and Black, Michael J.},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2023},
+}
+```
+
+<br/>
+
+## Acknowledgments
+
+We thank [BANMo] for their code and data. And thanks for the github template of [Yuliang Xiu](http://xiuyuliang.cn/). 
