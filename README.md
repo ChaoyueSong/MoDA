@@ -36,7 +36,6 @@
 ## Reconstruction results
 We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles. 
 
-
 https://user-images.githubusercontent.com/56154447/227527982-43b25d28-34a5-4b5a-9254-eaf5492e9d80.mp4
 
 
@@ -48,8 +47,6 @@ We show the effectiveness of texture filtering appraoch by adding it to both MoD
 
 ## Application: motion re-targeting
 We compare the motion re-targeting results of MoDA and BANMo.
-
-
 
 https://user-images.githubusercontent.com/56154447/227527993-26223249-aa8e-4bfa-ada8-2028466bf500.mp4
 
