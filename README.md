@@ -6,7 +6,7 @@
     ·
     <a href="https://bravotty.github.io/"><strong>Tianyi Chen</strong></a>
     ·
-    <strong>Yiwen Chen</strong>
+    Yiwen Chen
     ·
     <a href=""><strong>Jiacheng Wei</strong></a>
       ·
