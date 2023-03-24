@@ -30,7 +30,9 @@
       <img src='https://img.shields.io/badge/MoDA-Project-orange?style=for-the-badge&logo=Google%20chrome&logoColor=orange' alt='Project Page'>
   </p>
 </p> -->
+
 <div align="center">
+  
 ### [Project Page](https://frozenburning.github.io/projects/relighting4d) | [Video](https://youtu.be/NayAw89qtsY) | [Paper](https://arxiv.org/abs/2207.07104)
 
 <tr>
