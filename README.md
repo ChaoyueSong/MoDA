@@ -18,10 +18,7 @@
   </div>
   <h2 align="center">arXiv 2023</h2>
 
-  
-  <div>
       ### [Project Page](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
-</div>
 
 <div>
 <tr>
