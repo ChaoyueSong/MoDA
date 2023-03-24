@@ -22,7 +22,7 @@
    ### [Project](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
 
 <tr>
-    <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
+    <img src="https://github.com/ChaoyueSong/MoDA/blob/main/imgs/deformation_sequence.png" width="100%"/>
 </tr>
 </div>
 <br />
@@ -37,6 +37,12 @@
 We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles. Please refer to our [Project](https://chaoyuesong.github.io/MoDA) page for more reconstruction results.
 
 https://user-images.githubusercontent.com/56154447/227527982-43b25d28-34a5-4b5a-9254-eaf5492e9d80.mp4
+
+BANMo has more obvious skin-collapsing artifacts for motion with large rotations, our method can resolves the artifacts with the proposed NeuDBS.
+
+<tr>
+    <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
+</tr>
 
 ## Texture filtering
 We show the effectiveness of texture filtering appraoch by adding it to both MoDA and BANMo.
