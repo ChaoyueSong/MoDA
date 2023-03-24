@@ -17,10 +17,11 @@
     <a href="https://guosheng.github.io/"><strong>Guosheng Lin</strong></a>
   </p>
   <h2 align="center">arXiv 2023</h2>
+  </p>
   <div align='center'>
 ### [Project Page](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
   </div>
-</p>
+
 <div>
 <tr>
     <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
