@@ -8,7 +8,7 @@
     ·
     Yiwen Chen
     ·
-    <a href=""><strong>Jiacheng Wei</strong></a>
+    Jiacheng Wei
       ·
     <a href="http://ai.stanford.edu/~csfoo/"><strong>Chuan-Sheng Foo</strong></a>
       ·
