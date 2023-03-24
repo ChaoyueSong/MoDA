@@ -35,7 +35,9 @@
 
 ## Reconstruction results
 We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles. 
-
+<tr>
+    <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
+</tr>
 
 
 
