@@ -21,19 +21,9 @@
     <img src="./assets/teaser.gif" alt="Logo" width="100%">
   </div>
 
-<!--   <p align="center">
-  <br>
-    <a href='https://arxiv.org/abs/2112.09127'>
-      <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=arXiv&logoColor=green' alt='Paper PDF'>
-    </a>
-    <a href='https://chaoyuesong.github.io/MoDA' style='padding-left: 0.5rem;'>
-      <img src='https://img.shields.io/badge/MoDA-Project-orange?style=for-the-badge&logo=Google%20chrome&logoColor=orange' alt='Project Page'>
-  </p>
-</p> -->
-
 <div align="center">
   
-### [Project Page](https://frozenburning.github.io/projects/relighting4d) | [Video](https://youtu.be/NayAw89qtsY) | [Paper](https://arxiv.org/abs/2207.07104)
+### [Project Page](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
 
 <tr>
     <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
@@ -71,4 +61,4 @@ We compare the motion re-targeting results of MoDA and BANMo.
 
 ## Acknowledgments
 
-We thank [BANMo](https://github.com/facebookresearch/banmo) for their code and data. And thanks for the github template of [Yuliang Xiu](http://xiuyuliang.cn/). 
+We thank [BANMo](https://github.com/facebookresearch/banmo) for their code and data.
