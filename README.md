@@ -17,7 +17,7 @@
     <a href="https://guosheng.github.io/"><strong>Guosheng Lin</strong></a>
   </div>
   
-  <h2 align="center">arXiv 2023</h2>
+  ###arXiv 2023
 
    ### [Project Page](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
 
