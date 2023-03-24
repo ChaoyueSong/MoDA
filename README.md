@@ -38,6 +38,7 @@ We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifac
 
 https://user-images.githubusercontent.com/56154447/227527982-43b25d28-34a5-4b5a-9254-eaf5492e9d80.mp4
 
+<br>
 BANMo has more obvious skin-collapsing artifacts for motion with large rotations, our method can resolves the artifacts with the proposed NeuDBS.
 
 <tr>
