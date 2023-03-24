@@ -1,26 +1,32 @@
-# MoDA: Modeling Deformable 3D Objects from Casual Videos
+<!-- # MoDA: Modeling Deformable 3D Objects from Casual Videos
 #### [Project](https://chaoyuesong.github.io/MoDA/) |   [Paper](https://openreview.net/pdf?id=fG01Z_unHC)
 
 **MoDA: Modeling Deformable 3D Objects from Casual Videos** <br>
 [Chaoyue Song](https://chaoyuesong.github.io/), Tianyi Chen, Yiwen Chen, Jiacheng Wei, [Chuan-Sheng Foo](http://ai.stanford.edu/~csfoo/), [Fayao Liu](https://sites.google.com/site/fayaoliu/),
 [Guosheng Lin](https://guosheng.github.io/) <br>
-in arXiv, 2023.
+in arXiv, 2023. -->
 
 <!-- PROJECT LOGO -->
 
 <p align="center">
 
-  <h1 align="center">ICON: Implicit Clothed humans Obtained from Normals</h1>
+  <h1 align="center">MoDA: Modeling Deformable 3D Objects from Casual Videos</h1>
   <p align="center">
-    <a href="https://ps.is.tuebingen.mpg.de/person/yxiu"><strong>Yuliang Xiu</strong></a>
+    <a href="https://chaoyuesong.github.io"><strong>Chaoyue Song</strong></a>
     ·
-    <a href="https://ps.is.tuebingen.mpg.de/person/jyang"><strong>Jinlong Yang</strong></a>
+    <a href=""><strong>Tianyi Chen</strong></a>
     ·
-    <a href="https://ps.is.mpg.de/~dtzionas"><strong>Dimitrios Tzionas</strong></a>
+    <a href=""><strong>Yiwen Chen</strong></a>
     ·
-    <a href="https://ps.is.tuebingen.mpg.de/person/black"><strong>Michael J. Black</strong></a>
+    <a href=""><strong>Jiacheng Wei</strong></a>
+      ·
+    <a href="http://ai.stanford.edu/~csfoo/"><strong>Chuan-Sheng Foo</strong></a>
+      ·
+    <a href="https://sites.google.com/site/fayaoliu/"><strong>Fayao Liu</strong></a>
+      ·
+    <a href="https://guosheng.github.io/"><strong>Guosheng Lin</strong></a>
   </p>
-  <h2 align="center">CVPR 2022</h2>
+  <h2 align="center">arXiv 2023</h2>
   <div align="center">
     <img src="./assets/teaser.gif" alt="Logo" width="100%">
   </div>
