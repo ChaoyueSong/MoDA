@@ -17,11 +17,11 @@
     <a href="https://guosheng.github.io/"><strong>Guosheng Lin</strong></a>
   </p>
   <h2 align="center">arXiv 2023</h2>
+</p>
   
-  
-  <p align='center'>
+  <div align='center'>
 ### [Project Page](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
-  </p>
+  </div>
 
 <div>
 <tr>
