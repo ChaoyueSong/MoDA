@@ -22,7 +22,7 @@
    ### [Project](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
 
 <tr>
-    <img src="https://github.com/ChaoyueSong/MoDA/blob/main/imgs/deformation_sequence.png" width="100%"/>
+    <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
 </tr>
 </div>
 <br />
@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/56154447/227527982-43b25d28-34a5-4b5a-
 BANMo has more obvious skin-collapsing artifacts for motion with large rotations, our method can resolves the artifacts with the proposed NeuDBS.
 
 <tr>
-    <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
+    <img src="https://github.com/ChaoyueSong/MoDA/blob/main/imgs/deformation_sequence.png" width="70%"/>
 </tr>
 
 ## Texture filtering
