@@ -27,7 +27,7 @@
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=arXiv&logoColor=green' alt='Paper PDF'>
     </a>
     <a href='https://chaoyuesong.github.io/MoDA' style='padding-left: 0.5rem;'>
-      <img src='https://img.shields.io/badge/MoDA-Page-orange?style=for-the-badge&logo=Google%20chrome&logoColor=orange' alt='Project Page'>
+      <img src='https://img.shields.io/badge/MoDA-Project-orange?style=for-the-badge&logo=Google%20chrome&logoColor=orange' alt='Project Page'>
   </p>
 </p>
 
