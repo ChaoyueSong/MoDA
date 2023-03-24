@@ -1,13 +1,3 @@
-<!-- # MoDA: Modeling Deformable 3D Objects from Casual Videos
-#### [Project](https://chaoyuesong.github.io/MoDA/) |   [Paper](https://openreview.net/pdf?id=fG01Z_unHC)
-
-**MoDA: Modeling Deformable 3D Objects from Casual Videos** <br>
-[Chaoyue Song](https://chaoyuesong.github.io/), Tianyi Chen, Yiwen Chen, Jiacheng Wei, [Chuan-Sheng Foo](http://ai.stanford.edu/~csfoo/), [Fayao Liu](https://sites.google.com/site/fayaoliu/),
-[Guosheng Lin](https://guosheng.github.io/) <br>
-in arXiv, 2023. -->
-
-<!-- PROJECT LOGO -->
-
 <p align="center">
 
   <h1 align="center">MoDA: Modeling Deformable 3D Objects from Casual Videos</h1>
@@ -41,7 +31,6 @@ in arXiv, 2023. -->
   </p>
 </p>
 
-<br />
 <br />
 
 ## News :triangular_flag_on_post:
