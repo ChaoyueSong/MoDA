@@ -48,7 +48,11 @@ We show the effectiveness of texture filtering appraoch by adding it to both MoD
 ## Application: motion re-targeting
 We compare the motion re-targeting results of MoDA and BANMo.
 
-https://user-images.githubusercontent.com/56154447/227527993-26223249-aa8e-4bfa-ada8-2028466bf500.mp4
+
+
+https://user-images.githubusercontent.com/56154447/227528406-e883c13a-88cf-40d3-a1a9-f00dbf25214e.mp4
+
+
 
 
 
