@@ -1,7 +1,7 @@
-<p align="center">
+<div align="center">
 
   <h1 align="center">MoDA: Modeling Deformable 3D Objects from Casual Videos</h1>
-  <p align="center">
+  <div align="center">
     <a href="https://chaoyuesong.github.io"><strong>Chaoyue Song</strong></a>
     ·
     <a href="https://bravotty.github.io/"><strong>Tianyi Chen</strong></a>
@@ -15,9 +15,9 @@
     <a href="https://sites.google.com/site/fayaoliu/"><strong>Fayao Liu</strong></a>
       ·
     <a href="https://guosheng.github.io/"><strong>Guosheng Lin</strong></a>
-  </p>
+  </div>
   <h2 align="center">arXiv 2023</h2>
-</p>
+
   
   <div>
       ### [Project Page](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
@@ -28,7 +28,7 @@
     <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
 </tr>
 </div>
-
+</div>
 <br />
 
 ## News :triangular_flag_on_post:
