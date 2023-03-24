@@ -40,12 +40,17 @@
 <br>
 
 ## Reconstruction results
-In this video, we compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles.
+We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles. 
 
 
 
+
+Please refer to our [Project](https://chaoyuesong.github.io/MoDA) page for more reconstruction results.
 ## Texture filtering
-In this video, we show the effectiveness of texture filtering appraoch.
+We show the effectiveness of texture filtering appraoch by adding it to both MoDA and BANMo.
+
+## Application: motion re-targeting
+We compare the motion re-targeting results of MoDA and BANMo.
 
 ## Citation
 
