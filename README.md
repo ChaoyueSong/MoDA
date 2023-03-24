@@ -39,20 +39,22 @@
 
 <br>
 
+## Reconstruction results
+In this video, we compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles.
+
+
+
+## Texture filtering
+In this video, we show the effectiveness of texture filtering appraoch.
+
 ## Citation
 
 ```bibtex
-@inproceedings{xiu2023econ,
-  title     = {{ECON: Explicit Clothed humans Optimized via Normal integration}},
-  author    = {Xiu, Yuliang and Yang, Jinlong and Cao, Xu and Tzionas, Dimitrios and Black, Michael J.},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month     = {June},
-  year      = {2023},
-}
+
 ```
 
 <br/>
 
 ## Acknowledgments
 
-We thank [BANMo] for their code and data. And thanks for the github template of [Yuliang Xiu](http://xiuyuliang.cn/). 
+We thank [BANMo](https://github.com/facebookresearch/banmo) for their code and data. And thanks for the github template of [Yuliang Xiu](http://xiuyuliang.cn/). 
