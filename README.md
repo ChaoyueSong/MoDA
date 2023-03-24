@@ -4,9 +4,9 @@
   <p align="center">
     <a href="https://chaoyuesong.github.io"><strong>Chaoyue Song</strong></a>
     ·
-    <a href=""><strong>Tianyi Chen</strong></a>
+    <a href="https://bravotty.github.io/"><strong>Tianyi Chen</strong></a>
     ·
-    <a href=""><strong>Yiwen Chen</strong></a>
+    <strong>Yiwen Chen</strong>
     ·
     <a href=""><strong>Jiacheng Wei</strong></a>
       ·
