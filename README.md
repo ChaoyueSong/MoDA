@@ -24,6 +24,13 @@
 </div>
 <br />
 
+## Highlights :star2
+
+- We propose neural dual quaternion blend skinning (NeuDBS) to replace LBS, which can resolve the skin-collapsing artifacts.
+- Introduce a texture filtering approach to 
+
+<br>
+
 ## News :triangular_flag_on_post:
 
 - [2023/04/18] Our paper is available on arXiv now, sorry for that the code will need months to be released.
