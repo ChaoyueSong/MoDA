@@ -21,9 +21,6 @@
 
    ### [Project](https://chaoyuesong.github.io/MoDA) | [Paper](https://arxiv.org/abs/2207.07104)
 
-<tr>
-    <img src="https://github.com/FrozenBurning/FrozenBurning.github.io/blob/master/projects/relighting4d/img/teaser.gif" width="100%"/>
-</tr>
 </div>
 <br />
 
