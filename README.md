@@ -45,6 +45,10 @@ BANMo has more obvious skin-collapsing artifacts for motion with large rotations
 ## Texture filtering
 We show the effectiveness of texture filtering appraoch by adding it to both MoDA and BANMo.
 
+
+https://user-images.githubusercontent.com/56154447/232507580-ccdf9170-76c0-49a5-b21b-ca2b11d19c04.mp4
+
+
 ## Application: motion re-targeting
 We compare the motion re-targeting results of MoDA and BANMo.
 
