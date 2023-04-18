@@ -64,7 +64,14 @@ https://user-images.githubusercontent.com/56154447/227528406-e883c13a-88cf-40d3-
 ## Citation
 
 ```bibtex
-
+@misc{song2023moda,
+      title={MoDA: Modeling Deformable 3D Objects from Casual Videos}, 
+      author={Chaoyue Song and Tianyi Chen and Yiwen Chen and Jiacheng Wei and Chuan Sheng Foo and Fayao Liu and Guosheng Lin},
+      year={2023},
+      eprint={2304.08279},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 <br/>
