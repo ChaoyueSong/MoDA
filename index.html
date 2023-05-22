@@ -311,7 +311,67 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+       <!-- comparison. -->
+        <h3 class="title is-4">Reconstruction</h3>
+        <div class="content has-text-justified">
+          <p>
+            We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./imgs/reconstruction.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <!--/ comparison. -->
+      
+       <!-- comparison. -->
+        <h3 class="title is-4">Ablation study on texture filtering</h3>
+        <div class="content has-text-justified">
+          <p>
+            We show the effectiveness of texture filtering appraoch by adding it to both MoDA and BANMo.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./imgs/texture%20filtering.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <!--/ comparison. -->
+      
+       <!-- comparison. -->
+        <h3 class="title is-4">Motion re-targeting</h3>
+        <div class="content has-text-justified">
+          <p>
+            We compare the motion re-targeting results of MoDA and BANMo.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./imgs/motion_retargeting.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <!--/ comparison. -->
+      
+<!--       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
@@ -384,7 +444,7 @@
           </div>
         </div>
         <br/>
-        <!--/ Interpolating. -->
+        <!--/ Interpolating. --> -->
 
         <!-- Re-rendering. -->
         <h3 class="title is-4">Re-rendering the input video</h3>
