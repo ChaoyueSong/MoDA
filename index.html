@@ -185,10 +185,20 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="20%">
+<!--       <video id="teaser" autoplay muted loop playsinline height="20%">
         <source src="./imgs/teaser.mp4"
                 type="video/mp4">
-      </video>
+      </video> -->
+      <style>
+  #teaser {
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+  }
+</style>
+
+<video id="teaser" autoplay muted loop playsinline>
+  <source src="./imgs/teaser.mp4" type="video/mp4">
+</video>
       <h2 class="subtitle has-text-centered">
         <b>MoDA</b> models the shape, texture and motion of deformable 3D objects.
       </h2>
@@ -305,36 +315,6 @@
     </div>
 </section>
   
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-      </section>
-    <!--/ Animation. -->
     
        <!-- comparison. -->
       <section class="section">
@@ -354,7 +334,7 @@
                  muted
                  preload
                  playsinline
-                 width="40%">
+                 width="75%">
             <source src="./imgs/reconstruction.mp4"
                     type="video/mp4">
           </video>
@@ -381,7 +361,7 @@
                  muted
                  preload
                  playsinline
-                 width="40%">
+                 width="75%">
             <source src="./imgs/texture%20filtering.mp4"
                     type="video/mp4">
           </video>
@@ -408,7 +388,7 @@
                  muted
                  preload
                  playsinline
-                 width="40%">
+                 width="75%">
             <source src="./imgs/motion_retargeting.mp4"
                     type="video/mp4">
           </video>
@@ -425,9 +405,14 @@
         <div class="content has-text-justified">
           <p>
             <a href="https://banmo-www.github.io/">BANMo: Building Animatable 3D Neural Models from Many Casual Videos</a>
+            </p>
+          <p>
             <a href="https://viser-shape.github.io/">ViSER: Video-Specific Surface Embeddings for Articulated 3D Shape Reconstruction</a>
+          </p><p>
             <a href="https://nerfies.github.io/">Nerfies: Deformable Neural Radiance Fields</a>
+        </p><p>
             <a href="https://hypernerf.github.io/">HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields</a>
+      </p><p>
             <a href="https://gengshan-y.github.io/rac-www/">RAC: Reconstructing Animatable Categories from Videos</a>
           </p>
         </div>
