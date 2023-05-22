@@ -19,7 +19,7 @@
   
    ### arXiv 2023
 
-   ### [Project](https://moda-result.github.io/) (under construction) | [Paper](http://arxiv.org/abs/2304.08279)
+   ### [Project](https://moda-result.github.io/) | [Paper](http://arxiv.org/abs/2304.08279)
 <tr>
     <img src="https://github.com/ChaoyueSong/ChaoyueSong.github.io/blob/gh-pages/files/project/moda/teaser.gif" width="70%"/>
 </tr>
