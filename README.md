@@ -35,7 +35,7 @@
 
 ## News :triangular_flag_on_post:
 
-- [2023/04/18] Our paper is available on [arXiv](http://arxiv.org/abs/2304.08279) now, sorry for that the code will need months to be released.
+- [2023/04/18] Our paper is available on [arXiv](http://arxiv.org/abs/2304.08279) now.
 
 <br>
 
