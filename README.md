@@ -21,7 +21,7 @@
 
    ### [Project](https://moda-result.github.io/) | [Paper](http://arxiv.org/abs/2304.08279)
 <tr>
-    <img src="https://github.com/ChaoyueSong/MoDA/imgs/teaser.gif" width="100%"/>
+    <img src="https://github.com/ChaoyueSong/MoDA/tree/main/imgs/teaser.gif" width="100%"/>
 </tr>
 </div>
 <br />
