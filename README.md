@@ -19,7 +19,7 @@
   
    ### arXiv 2023
 
-   ### [Project](https://moda-result.github.io/) | [Paper](http://arxiv.org/abs/2304.08279)
+   ### [Project](https://chaoyuesong.github.io/MoDA/) | [Paper](http://arxiv.org/abs/2304.08279)
 <tr>
     <img src="https://github.com/ChaoyueSong/ChaoyueSong.github.io/blob/gh-pages/files/project/moda/teaser.gif" width="70%"/>
 </tr>
@@ -40,7 +40,7 @@
 <br>
 
 ## Reconstruction results
-We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles. Please refer to our [Project](https://moda-result.github.io/) page for more reconstruction results.
+We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles. Please refer to our [Project](https://chaoyuesong.github.io/MoDA/) page for more reconstruction results.
 
 https://user-images.githubusercontent.com/56154447/227527982-43b25d28-34a5-4b5a-9254-eaf5492e9d80.mp4
 
