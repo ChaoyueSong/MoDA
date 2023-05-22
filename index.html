@@ -206,15 +206,20 @@
 <video id="teaser" autoplay muted loop playsinline>
   <source src="./imgs/teaser.mp4" type="video/mp4">
 </video> -->
-      <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="50%">
-            <source src="./imgs/teaser.mp4"
-                    type="video/mp4">
-          </video>
+     <style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+</style>
+
+<body>
+  <video id="replay-video" controls muted preload playsinline width="50%">
+    <source src="./imgs/teaser.mp4" type="video/mp4">
+  </video>
+</body>
       <h2 class="subtitle has-text-centered">
         <b>MoDA</b> models the shape, texture and motion of deformable 3D objects.
       </h2>
@@ -357,8 +362,8 @@
         </div>
         <div class="content has-text-justified">
           <p>
-           More reconstruction result can be found at <a href='./casual-adult.html'>[Casual-adult (10 videos)]</a>, <a href='./casual-human.html'>[Casual-human (10 videos)]</a>, 
-            <a href='./casual-cat.html'>[Casual-cat (11 videos)]</a>, <a href='./ama.html'>[AMA (swing and samba of 16 videos)]</a>.
+           More reconstruction result can be found at <a href='./casual-adult.html'>Casual-adult</a> (10 videos), <a href='./casual-human.html'>Casual-human</a> (10 videos), 
+            <a href='./casual-cat.html'>Casual-cat</a> (11 videos), <a href='./ama.html'>AMA</a> (swing and samba of 16 videos).
           </p>
         </div>
       </div>
