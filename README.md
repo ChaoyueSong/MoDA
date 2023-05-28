@@ -55,7 +55,7 @@ BANMo has more obvious skin-collapsing artifacts for motion with large rotations
 ## 2D-3D matching via optimal transport
 By registering 2D pixels across different frames with optimal transport, we can refine the bad segmentation and predict the consistent 3D shape of the cat.
 <tr>
-    <img src="https://chaoyuesong.github.io/MoDA/moda_ot_demo.jpg" width="70%"/>
+    <img src="https://chaoyuesong.github.io/MoDA/imgs/moda_ot_demo.jpg" width="70%"/>
 </tr>
 
 ## Texture filtering
