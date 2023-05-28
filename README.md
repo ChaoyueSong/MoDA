@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/56154447/227527982-43b25d28-34a5-4b5a-
 BANMo has more obvious skin-collapsing artifacts for motion with large rotations, our method can resolves the artifacts with the proposed NeuDBS.
 
 <tr>
-    <img src="https://github.com/ChaoyueSong/MoDA/blob/main/imgs/deformation_sequence.png" width="70%"/>
+    <img src="https://chaoyuesong.github.io/MoDA/imgs/deformation_sequence.png" width="70%"/>
 </tr>
 
 ## 2D-3D matching via optimal transport
