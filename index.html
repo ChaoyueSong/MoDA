@@ -303,7 +303,8 @@
               <br><br>    
               Introduce a <b>texture filtering</b> approach for texture rendering that effectively minimizes the impact of noisy colors outside target deformable objects.
               <br><br>    
-
+              Formulate the 2D-3D matching as an optimal transport problem that helps to refine the bad segmentation obtained from a off-the-shelf method and predict the consistent 3D shape.
+              <br><br>
             </p>
         </div>
       </div>
@@ -348,27 +349,23 @@
         <section class="section">
   <div class="container is-max-desktop">
 
-<!--     <div class="columns is-centered">
+    <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Optimal transport for 2D-3D matching</h2>
         <div class="content has-text-justified">
           <p>
-            We show the effectiveness of texture filtering appraoch by adding it to both MoDA and BANMo.
+            By registering 2D pixels across different frames with optimal transport, we can refine the bad segmentation and predict the consistent 3D shape of the cat.
           </p>
         </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./imgs/texture%20filtering.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="columns is-centered has-text-centered">
+          <div class="column">
+            <div class="publication-img">
+              <img id="architecture" src="imgs/moda_ot_demo.jpg" style="width:1000px; margin-top:10px;margin-bottom:-20px;"/>
+            </div>
+          </div>
         </div>
   </div>
-    </div></section> -->
+    </div></section>
         <!--/ comparison. -->
           
        <!-- comparison. -->
