@@ -3,12 +3,12 @@
   <h1 align="center">MoDA: Modeling Deformable 3D Objects from Casual Videos</h1>
   <div>
     <a href="https://chaoyuesong.github.io"><strong>Chaoyue Song</strong></a>
+     ·
+    <a href="https://plusmultiply.github.io/"><strong>Jiacheng Wei</strong></a>
     ·
     <a href="https://bravotty.github.io/"><strong>Tianyi Chen</strong></a>
     ·
     Yiwen Chen
-    ·
-    Jiacheng Wei
       ·
     <a href="http://ai.stanford.edu/~csfoo/"><strong>Chuan-Sheng Foo</strong></a>
       ·
