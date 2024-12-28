@@ -3,13 +3,13 @@
   <h1 align="center">MoDA: Modeling Deformable 3D Objects from Casual Videos</h1>
   <div>
     <a href="https://chaoyuesong.github.io"><strong>Chaoyue Song</strong></a>
-     ·
-    <a href="https://plusmultiply.github.io/"><strong>Jiacheng Wei</strong></a>
     ·
+    <a href="https://plusmultiply.github.io/"><strong>Jiacheng Wei</strong></a>
+      ·
     <a href="https://bravotty.github.io/"><strong>Tianyi Chen</strong></a>
     ·
-    Yiwen Chen
-      ·
+    <a href="https://buaacyw.github.io/"><strong>Yiwen Chen</strong></a>
+    ·
     <a href="http://ai.stanford.edu/~csfoo/"><strong>Chuan-Sheng Foo</strong></a>
       ·
     <a href="https://sites.google.com/site/fayaoliu/"><strong>Fayao Liu</strong></a>
@@ -17,7 +17,7 @@
     <a href="https://guosheng.github.io/"><strong>Guosheng Lin</strong></a>
   </div>
   
-   ### arXiv 2023
+   ### IJCV 2024
 
    ### [Project](https://chaoyuesong.github.io/MoDA/) | [Paper](https://chaoyuesong.github.io/MoDA/MoDA.pdf)
 <tr>
@@ -26,58 +26,69 @@
 </div>
 <br />
 
-## Highlights :star2:
-
-- We propose neural dual quaternion blend skinning (NeuDBS) as our deformation model to replace LBS, which can resolve the skin-collapsing artifacts.
-- Introduce a texture filtering approach for texture rendering that effectively minimizes the impact of noisy colors outside target deformable objects.
-- Formulate the 2D-3D matching as an optimal transport problem that helps to refine the bad segmentation obtained from a off-the-shelf method and predict the consistent 3D shape.
-
-<br>
-
-## News :triangular_flag_on_post:
-
-- [2023/04/18] Our paper is available on [arXiv](http://arxiv.org/abs/2304.08279) now.
-
-<br>
-
-## Reconstruction results
-We compare reconstruction results of MoDA and BANMo, the skin-collapsing artifacts of BANMo are marked with red circles. Please refer to our [Project](https://chaoyuesong.github.io/MoDA/) page for more reconstruction results.
-
-https://user-images.githubusercontent.com/56154447/227527982-43b25d28-34a5-4b5a-9254-eaf5492e9d80.mp4
-
-<br>
-BANMo has more obvious skin-collapsing artifacts for motion with large rotations, our method can resolves the artifacts with the proposed NeuDBS.
-
-<tr>
-    <img src="https://chaoyuesong.github.io/MoDA/imgs/deformation_sequence.png" width="70%"/>
-</tr>
-
-## 2D-3D matching via optimal transport
-By registering 2D pixels across different frames with optimal transport, we can refine the bad segmentation and predict the consistent 3D shape of the cat.
-<tr>
-    <img src="https://chaoyuesong.github.io/MoDA/imgs/moda_ot_demo.jpg" width="70%"/>
-</tr>
-
-## Texture filtering
-We show the effectiveness of texture filtering appraoch by adding it to both MoDA and BANMo.
 
 
-https://user-images.githubusercontent.com/56154447/232507580-ccdf9170-76c0-49a5-b21b-ca2b11d19c04.mp4
 
 
-## Application: motion re-targeting
-We compare the motion re-targeting results of MoDA and BANMo.
 
-https://user-images.githubusercontent.com/56154447/227528406-e883c13a-88cf-40d3-a1a9-f00dbf25214e.mp4
+## Installation
+
+We test our method on torch 1.10 + cu113
+
+```bash
+# clone repo
+git clone https://github.com/ChaoyueSong/MoDA.git --recursive
+cd MoDA
+# create conda env
+conda env create -f misc/moda.yml
+conda activate moda
+# install pytorch3d, kmeans-pytorch
+pip install -e third_party/pytorch3d
+pip install -e third_party/kmeans_pytorch
+# install detectron2
+python -m pip install detectron2 -f \
+  https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
+```
+
+## Data preparation
+
+For casual-human (adult7) and casual-cat (cat-pikachiu) used in this work, you can download the pre-processed data as in BANMo, plz check the license for these data in [BANMo](https://github.com/facebookresearch/banmo/).
+```bash
+# (~8G for each)
+bash misc/processed/download.sh cat-pikachiu
+bash misc/processed/download.sh human-cap
+```
+For AMA and Synthetic data, please check [here](https://github.com/facebookresearch/banmo/tree/main/scripts).
+</details>
+
+
+**To use your own videos, or pre-process raw videos into our format, 
+please follow this [instruction](https://github.com/facebookresearch/banmo/tree/main/preprocess).**
+
+## PoseNet weights
+
+Download pre-trained PoseNet weights for human and quadrupeds.
+```bash
+mkdir -p mesh_material/posenet && cd "$_"
+wget $(cat ../../misc/posenet.txt); cd ../../
+```
+
+### TODO
+- [x] Release the dataset and data preprocess codes.
+- [ ] Release training code.
+- [ ] Release the pretrained models.
+
 
 ## Citation
 
 ```bibtex
-@article{song2023moda,
-  title={MoDA: Modeling Deformable 3D Objects from Casual Videos},
-  author={Song, Chaoyue and Chen, Tianyi and Chen, Yiwen and Wei, Jiacheng and Foo, Chuan Sheng and Liu, Fayao and Lin, Guosheng},
-  journal={arXiv preprint arXiv:2304.08279},
-  year={2023}
+@article{song2024moda,
+  title={Moda: Modeling deformable 3d objects from casual videos},
+  author={Song, Chaoyue and Wei, Jiacheng and Chen, Tianyi and Chen, Yiwen and Foo, Chuan-Sheng and Liu, Fayao and Lin, Guosheng},
+  journal={International Journal of Computer Vision},
+  pages={1--20},
+  year={2024},
+  publisher={Springer}
 }
 ```
 
