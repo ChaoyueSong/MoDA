@@ -73,9 +73,44 @@ mkdir -p mesh_material/posenet && cd "$_"
 wget $(cat ../../misc/posenet.txt); cd ../../
 ```
 
+## Training
+#### 1. cat-pikachiu (casual-cat) 
+
+```bash
+# We store images as lines of pixels following BANMo. 
+# only needs to run it once per sequence and data are stored in
+# database/DAVIS/Pixel
+python preprocess/img2lines.py --seqname cat-pikachiu
+
+# Training
+bash scripts/template.sh 0,1 cat-pikachiu 10001 "no" "no"
+# argv[1]: gpu ids separated by comma 
+# args[2]: sequence name
+# args[3]: port for distributed training
+# args[4]: use_human, pass "" for human, "no" for others
+# args[5]: use_symm, pass "" to force x-symmetric shape
+
+# Extract articulated meshes and render
+bash scripts/render_mgpu.sh 0 cat-pikachiu logdir/cat-pikachiu-e120-b256-ft2/params_latest.pth \
+        "0 1 2 3 4 5 6 7 8 9 10" 256
+# argv[1]: gpu id
+# argv[2]: sequence name
+# argv[3]: weights path
+# argv[4]: video id separated by space
+# argv[5]: resolution of running marching cubes (256 by default)
+```
+
+#### 2. adult7 (casual-human) 
+
+```bash
+python preprocess/img2lines.py --seqname adult7
+bash scripts/template.sh 0,1 adult7 10001 "" ""
+bash scripts/render_mgpu.sh 0 adult7 logdir/adult7-e120-b256-ft2/params_latest.pth \
+        "0 1 2 3 4 5 6 7 8 9" 256
+```
+
 ### TODO
-- [x] Release the dataset and data preprocess codes.
-- [ ] Release training code.
+- [ ] Code cleaning.
 - [ ] Release the pretrained models.
 
 
