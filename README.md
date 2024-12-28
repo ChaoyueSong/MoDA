@@ -110,7 +110,8 @@ bash scripts/render_mgpu.sh 0 adult7 logdir/adult7-e120-b256-ft2/params_latest.p
 ```
 
 ### TODO
-- [ ] Code cleaning.
+- [x] Inital code release.
+- [ ] Code cleaning and further checking.
 - [ ] Release the pretrained models.
 
 
