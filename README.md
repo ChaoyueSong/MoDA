@@ -19,7 +19,7 @@
   
    ### IJCV 2024
 
-   ### [Project](https://chaoyuesong.github.io/MoDA/) | [Paper](https://chaoyuesong.github.io/MoDA/MoDA.pdf)
+   ### [Project](https://chaoyuesong.github.io/MoDA/) | [Paper](https://chaoyuesong.github.io/MoDA/MoDA.pdf) | [Video](https://www.youtube.com/watch?v=6RAPy8DLv-E)
 <tr>
     <img src="https://github.com/ChaoyueSong/ChaoyueSong.github.io/blob/gh-pages/files/project/moda/teaser.gif" width="70%"/>
 </tr>
